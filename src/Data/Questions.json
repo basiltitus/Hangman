@@ -1,62 +1,62 @@
 [
     {
         "id":"0",
-        "question":"aravind cs",
-        "hint":"dsdsd",
+        "question":"dictator",
+        "hint":"a ruler with complete power",
         "difficulty":"medium"
     },
     {
         "id":"1",
-        "question":"basil titus",
-        "hint":"dsdsd",
+        "question":"execute",
+        "hint":"to kill",
         "difficulty":"medium"
     },
     {
         "id":"2",
-        "question":"arun prakash",
-        "hint":"dsdsd",
+        "question":"individual",
+        "hint":"one person",
         "difficulty":"medium"
     },
     {
         "id":"3",
-        "question":"ben nicholas",
-        "hint":"dsdsd",
+        "question":"member",
+        "hint":"one of a group",
         "difficulty":"medium"
     },
     {
         "id":"4",
-        "question":"rose mary titus",
-        "hint":"dsdsd",
+        "question":"final",
+        "hint":" at the end; last",
         "difficulty":"medium"
     },
     {
         "id":"5",
-        "question":"aravind cs",
-        "hint":"dsdsd",
+        "question":"gift",
+        "hint":"something given without cost",
         "difficulty":"medium"
     },
     {
         "id":"6",
-        "question":"basil titus",
-        "hint":"dsdsd",
+        "question":"the blue whale",
+        "hint":"biggest animal in the world",
         "difficulty":"medium"
     },
     {
         "id":"7",
-        "question":"arun prakash",
-        "hint":"dsdsd",
+        "question":"jeans",
+        "hint":"A clothing",
         "difficulty":"medium"
     },
     {
         "id":"8",
-        "question":"ben nicholas",
-        "hint":"dsdsd",
+        "question":"the bible",
+        "hint":"sacred book",
         "difficulty":"medium"
     },
     {
         "id":"9",
-        "question":"rose mary titus",
-        "hint":"dsdsd",
+        "question":"mahatma gandhi",
+        "hint":"father of the nation",
         "difficulty":"medium"
     }
     

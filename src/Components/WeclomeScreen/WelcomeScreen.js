@@ -19,7 +19,7 @@ class WelcomeScreen extends React.Component{
             <DifficultySelectorModal startGame={()=>{this.props.startGame()}} show={this.state.modalShow} onHide={() => this.setState({modalShow:false})} />
            <Title /> 
            <Container fluid className="startContainer">
-           <Button variant='outline-danger' className="startBtn" onClick={()=>{this.setState({modalShow:true})}}>Start</Button>
+           <Button variant='outline-danger' size='lg' className="startBtn" onClick={()=>{this.setState({modalShow:true})}}>Start</Button>
            </Container>
           
           </div>
