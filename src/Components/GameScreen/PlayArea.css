@@ -13,6 +13,7 @@ color: white;
 }
 .text-right{
     text-align: right;
+    margin-top: 0;
 }
 .hintBtn:hover{
     background-color: #ff2483;

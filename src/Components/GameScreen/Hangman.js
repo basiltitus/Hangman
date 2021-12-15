@@ -19,9 +19,15 @@ class  Hangman extends React.Component{
                   case 5:
                   return <img src="https://assets.wprock.fr/emoji/joypixels/512/1f622.png" alt="hangmantemp4-removebg-preview" border="0"></img>
               case 10:
-              return <img  src="https://cdn.shopify.com/s/files/1/1061/1924/products/Crying_Emoji_Icon_2_large.png" alt="hangmantemp6-removebg-preview" border="0"></img>
+              return <>
+                <img  src="https://cdn.shopify.com/s/files/1/1061/1924/products/Crying_Emoji_Icon_2_large.png" alt="hangmantemp6-removebg-preview" border="0"></img>
+             <br/> <h3 className='text-center'> Better Luck Next Time</h3>
+              </>
               case 100:
-              return <img src="https://media0.giphy.com/media/ie822LA39sLOOFy5qN/source.gif" alt="hangmantemp6-removebg-preview" border="0"></img>
+              return <>
+<img src="https://media0.giphy.com/media/ie822LA39sLOOFy5qN/source.gif" alt="hangmantemp6-removebg-preview" border="0"></img>
+<br/> <h3 className='text-center'> Congratulations You won!</h3>
+              </> 
               default:
             return 'foo';
         }
@@ -29,9 +35,15 @@ class  Hangman extends React.Component{
     render(){
         return(
             <Container>
-            {this.renderSwitch()}
+
+            <Container className='text-right mt-2'>
+                {this.props.status<7 && <span>No of attempts left : {6-this.props.status }</span>}
             </Container>
             
+            <Container>
+            {this.renderSwitch()}
+            </Container>
+            </Container>
             );
     }
 }

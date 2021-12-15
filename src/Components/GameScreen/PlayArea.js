@@ -82,12 +82,10 @@ return (
 <Container className="alphabetBtnSet">
     {this.RenderAlphabets()}
 </Container>
-
 {this.props.status>=4&&this.props.status<6&&
-<Container className="text-right">
-
+<div className="text-right">
 <Button variant="outline-primary" className="hintBtn" size="sm" onClick={()=>this.setState({showModal:true})} >Hint?</Button>
-</Container>
+</div>
 }
 </div>
     );
