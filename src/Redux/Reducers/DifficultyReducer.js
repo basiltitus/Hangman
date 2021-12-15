@@ -10,7 +10,7 @@ export default function Difficulty(state='easy',action){
             return 'easy';
             break;
         case DIFFICULTY_MEDIUM:
-            console.log("meduim")
+            // console.log("meduim")
             return 'medium';
             break;
         case DIFFICULTY_HARD:

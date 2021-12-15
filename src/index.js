@@ -7,8 +7,8 @@ import {Provider} from 'react-redux'
 import { createStore } from 'redux';
 
 const store=createStore(root);
-console.log('store',store.getState());
-store.subscribe(()=>console.log('subscribe store',store.getState()));
+// console.log('store',store.getState());
+// store.subscribe(()=>console.log('subscribe store',store.getState()));
 ReactDOM.render(
   <Provider store={store}>
   <React.StrictMode>

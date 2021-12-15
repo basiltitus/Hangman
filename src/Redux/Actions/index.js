@@ -2,22 +2,22 @@ import { DIFFICULTY_EASY,DIFFICULTY_MEDIUM,DIFFICULTY_HARD } from "../Reducers/D
 import {ADD_ALPHABET,CLEAR_ANSWER} from '../Reducers/UserAnswerReducer';
 import {STATUS_INIT,STATUS_PASS,STATUS_FAIL,STATUS_LEVELUP} from '../Reducers/StatusReducer';
 import { act } from "react-dom/cjs/react-dom-test-utils.production.min";
-export function ChangeDifficultyEasy(){
+export function changedifficultyeasy(){
     const action= { type:DIFFICULTY_EASY}
 return action;
 }
 
-export function ChangeDifficultyMedium(){
+export function changedifficultymedium(){
     const action= { type:DIFFICULTY_MEDIUM}
 return action;
 }
 
-export function ChangeDifficultyHard(){
+export function changedifficultyhard(){
     const action= { type:DIFFICULTY_HARD}
     return action;
 }
 export function AddAlphabet(chr){
-    console.log(chr);
+    // console.log(chr);
     const action= { type:ADD_ALPHABET,payload:chr}
 return action;
 }

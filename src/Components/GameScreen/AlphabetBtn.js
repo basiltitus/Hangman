@@ -13,7 +13,7 @@ class AlphabetBtn extends React.Component{
     componentDidUpdate(prevProps){
         
         if(prevProps.UserAnswer!=this.props.UserAnswer){
-            console.log("updated");
+            // console.log("updated");
             if(this.props.UserAnswer.includes(this.props.text)){
                 this.setState({selected:true})
             }else{

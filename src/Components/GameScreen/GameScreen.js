@@ -29,11 +29,11 @@ if(this.props.Status!=prevProps.Status){
 }
   }
     restartGame(){
-        console.log("clicked")
+        // console.log("clicked")
     this.setState({QuestionNumber:Math.floor(10*Math.random())});
     this.props.StatusInit();
     this.props.ClearAnswer();
-    console.log(this.state.QuestionNumber)
+    
     }
     render(){
         

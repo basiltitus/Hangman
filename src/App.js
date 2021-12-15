@@ -14,7 +14,7 @@ function stopGame(){
   props.StatusInit();
 }
   return (
-    gamestarted?<GameScreen stopGame={stopGame} />:<WelcomeScreen startGame={()=>{setGamestarted(true)}}/>
+    gamestarted?<GameScreen stopGame={stopGame} />:<WelcomeScreen startgame={()=>{setGamestarted(true)}}/>
  );
   }
   function mapDispatchToProps(dispatch){

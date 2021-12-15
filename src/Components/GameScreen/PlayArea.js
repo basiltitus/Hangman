@@ -19,15 +19,15 @@ class PlayArea extends React.Component{
     componentDidUpdate(prevprops){
 
         if (this.props.QuestionNumber !== prevprops.QuestionNumber){
-        console.log(this.props.QuestionNumber)
+        // console.log(this.props.QuestionNumber)
         this.setState({Currentquestion:this.props.Questions[this.props.QuestionNumber].question})
         this.setState({hint:this.props.Questions[this.props.QuestionNumber].hint})
     }}
     AddAlphabetFn(text){
         if(this.state.Currentquestion.toUpperCase().includes(text)){
-            console.log('correct');
+            // console.log('correct');
         }else{
-            console.log('incorrect');
+            // console.log('incorrect');
             if(this.props.status==5)
             this.props.StatusFail();
             else

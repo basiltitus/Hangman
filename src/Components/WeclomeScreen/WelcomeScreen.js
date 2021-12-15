@@ -16,7 +16,7 @@ class WelcomeScreen extends React.Component{
     render(){
         return (
             <div>
-            <DifficultySelectorModal startGame={()=>{this.props.startGame()}} show={this.state.modalShow} onHide={() => this.setState({modalShow:false})} />
+            <DifficultySelectorModal startgame={()=>{this.props.startgame()}} show={this.state.modalShow} onHide={() => this.setState({modalShow:false})} />
            <Title /> 
            <Container fluid className="startContainer">
            <Button variant='outline-danger' size='lg' className="startBtn" onClick={()=>{this.setState({modalShow:true})}}>Start</Button>
@@ -27,7 +27,4 @@ class WelcomeScreen extends React.Component{
     }
 }
 
-    function mapDispatchToProps(dispatch){
-    return bindActionCreators({ChangeDifficultyEasy,ChangeDifficultyMedium,ChangeDifficultyHard},dispatch)
-    }
-    export default connect(null,mapDispatchToProps) (WelcomeScreen);
+    export default connect(null,null) (WelcomeScreen);
