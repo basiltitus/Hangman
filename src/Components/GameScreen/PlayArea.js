@@ -39,9 +39,9 @@ class PlayArea extends React.Component{
         let alphabets="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         var res=[];
         for(var i=0;i<alphabets.length;++i){
-            if(alphabets.charAt(i)=="U"){
-                res.push(<br />)
-            }
+            // if(alphabets.charAt(i)=="U"){
+            //     res.push(<br />)
+            // }
                res.push(<AlphabetBtn key={alphabets.charAt(i)} text={alphabets.charAt(i)} onClick={(text)=>{this.AddAlphabetFn(text);}}/>)
                
             }
