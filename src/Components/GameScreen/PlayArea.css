@@ -1,0 +1,29 @@
+body{
+    font-family: 'M PLUS 2', sans-serif;
+font-family: 'Roboto Mono', monospace;
+color: white;
+}
+.alphabetBtnSet{
+    margin-top: 10%;
+    text-align: center;
+}
+.questionSet{
+    margin-top: 15%;
+    text-align: center;   
+}
+.text-right{
+    text-align: right;
+}
+.hintBtn:hover{
+    background-color: #ff2483;
+    border:1px solid #ff2483;
+}
+.hintBtn{
+    border: 1px solid #ff2483;
+    color: #ff2483;
+}
+h1 { 
+    font-weight: 900;
+    font-size: 56px;
+    text-shadow: 2px 2px 4px #000;
+  }

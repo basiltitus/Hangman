@@ -1,25 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react'
+import WelcomeScreen from './Components/WeclomeScreen/WelcomeScreen'
+import GameScreen from './Components/GameScreen/GameScreen'
+import { connect } from 'react-redux';
+import {StatusInit,ClearAnswer} from './Redux/Actions'
+import { bindActionCreators } from 'redux';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App(props){
+const [gamestarted,setGamestarted]=React.useState(false);
+function stopGame(){
+  setGamestarted(false);
+  props.ClearAnswer();
+  props.StatusInit();
 }
-
-export default App;
+  return (
+    gamestarted?<GameScreen stopGame={stopGame} />:<WelcomeScreen startGame={()=>{setGamestarted(true)}}/>
+ );
+  }
+  function mapDispatchToProps(dispatch){
+    return bindActionCreators({StatusInit,ClearAnswer},dispatch)
+    }
+  export default connect(null,mapDispatchToProps) (App);

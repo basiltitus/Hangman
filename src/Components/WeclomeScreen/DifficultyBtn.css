@@ -1,0 +1,8 @@
+.diffBtn:hover{
+background-color: #ff2483;
+border: #ff2483;
+}
+.diffBtn{
+    border: 1px solid #ff2483;
+    color:#ff2483;
+}

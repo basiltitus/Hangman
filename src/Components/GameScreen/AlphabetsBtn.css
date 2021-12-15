@@ -1,0 +1,88 @@
+.btn{
+    margin-left: 2%;
+    font-size: 140%;
+    margin-top: 2%;
+}
+.activeBtn{
+    background-color: #ff2483;
+}
+.activeBtn:hover{
+    background-color: white;
+    color: black;
+}
+.inactiveBtn{
+     cursor: not-allowed;
+  pointer-events: all !important;
+}
+.passBtn{
+
+}
+.failBtn{
+
+}
+.alphaButton {
+    color: black;
+    font-weight: 500;
+    width: 55px;
+    height: 55px;
+    border: none;
+    background: rgb(214, 214, 214);
+    box-shadow: 0 0 10px #ff2483, 0 0 40px #ff2483, 0 0 50px #ff2483;
+  
+    font-size: 15px;
+    margin-left: 5px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20%;
+  }
+
+  .inactiveAlphaButton {
+    color: white;
+    font-weight: 500;
+    width: 55px;
+    height: 55px;
+    border: none;
+    background: rgb(83, 67, 67);
+    box-shadow: 0 0 10px #353334, 0 0 40px #353334, 0 0 80px #353334;
+  
+    font-size: 15px;
+    margin-left: 5px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20%;
+  }
+  button:active {
+    box-shadow: 1px 1px 2px #fd0c99, 1px 1px 2px #ff00dd;
+  }
+  .failedAlphaButton {
+    color: black;
+    font-weight: 500;
+    width: 55px;
+    height: 55px;
+    border: none;
+    background: rgb(241, 227, 227);
+    box-shadow: 0 0 10px #ee3434, 0 0 40px #ee3434, 0 0 50px #ee3434;
+  
+    font-size: 15px;
+    margin-left: 5px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20%;
+  }
+  
+  .passAlphaButton {
+    color: black;
+    font-weight: 500;
+    width: 55px;
+    height: 55px;
+    border: none;
+    background: rgb(224, 228, 222);
+    box-shadow: 0 0 10px #24ff48, 0 0 40px #24ff48, 0 0 50px #24ff48;
+  
+    font-size: 15px;
+    margin-left: 5px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20%;
+  }
+  
