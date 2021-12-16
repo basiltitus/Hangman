@@ -14,16 +14,10 @@
      cursor: not-allowed;
   pointer-events: all !important;
 }
-.passBtn{
-
-}
-.failBtn{
-
-}
 .alphaButton {
     color: black;
     font-weight: 500;
-    width: 55px;
+    width: 4vw;
     height: 55px;
     border: none;
     background: rgb(214, 214, 214);
@@ -39,7 +33,7 @@
   .inactiveAlphaButton {
     color: white;
     font-weight: 500;
-    width: 55px;
+    width: 4vw;
     height: 55px;
     border: none;
     background: rgb(83, 67, 67);
@@ -57,7 +51,7 @@
   .failedAlphaButton {
     color: black;
     font-weight: 500;
-    width: 55px;
+    width: 4vw;
     height: 55px;
     border: none;
     background: rgb(241, 227, 227);
@@ -73,7 +67,7 @@
   .passAlphaButton {
     color: black;
     font-weight: 500;
-    width: 55px;
+    width: 4vw;
     height: 55px;
     border: none;
     background: rgb(224, 228, 222);
@@ -85,4 +79,16 @@
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 20%;
   }
-  
+  @media screen and (max-width: 600px) {
+    .alphaButton,.passAlphaButton,.failedAlphaButton,.inactiveAlphaButton{
+        width: 12vw;
+    }
+
+  }
+
+  @media screen and (min-width:601px ) and (max-width: 1000px) {
+    .alphaButton,.passAlphaButton,.failedAlphaButton,.inactiveAlphaButton{
+        width: 10vw;
+    }
+
+  }

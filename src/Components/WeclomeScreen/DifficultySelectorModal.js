@@ -22,9 +22,9 @@ class DifficultySelectorModal extends React.Component{
             </Modal.Header>
             <Modal.Body className='blackBckg'>
              <Container className="text-center">
-             <DifficultyBtn text="Easy" onClick={()=>{this.props.changedifficultyeasy();this.props.startgame()}}/>
-          <DifficultyBtn text="Medium" onClick={()=>{this.props.changedifficultymedium();this.props.startgame()}}/>
-          <DifficultyBtn text="Difficult" onClick={()=>{this.props.changedifficultyhard();this.props.startgame()}}/>
+             <DifficultyBtn className='diffBtn' text="Easy" onClick={()=>{this.props.changedifficultyeasy();this.props.startgame()}}/>
+          <DifficultyBtn className='diffBtn' text="Medium" onClick={()=>{this.props.changedifficultymedium();this.props.startgame()}}/>
+          <DifficultyBtn className='diffBtn' text="Difficult" onClick={()=>{this.props.changedifficultyhard();this.props.startgame()}}/>
              </Container>
             </Modal.Body>
             <Modal.Footer className='blackBckg'>

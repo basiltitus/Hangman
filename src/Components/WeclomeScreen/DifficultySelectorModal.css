@@ -16,3 +16,12 @@
 .btn-close{
     color: red;
 }
+
+.diffBtn{
+    width:40%
+}
+@media screen and (max-width: 600px) {
+    .diffBtn {
+      width: 80%;
+    }
+}

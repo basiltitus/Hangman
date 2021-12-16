@@ -28,3 +28,9 @@ h1 {
     font-size: 56px;
     text-shadow: 2px 2px 4px #000;
   }
+  
+  @media screen and (max-width: 1000px) {
+     .questionSet{
+         margin-top: 7%;
+     } 
+  }

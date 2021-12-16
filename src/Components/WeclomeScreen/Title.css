@@ -24,6 +24,12 @@
     0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
   animation: shine 2s forwards, flicker 3s infinite;
 }
+@media screen and (max-width: 600px) {
+    .sign {
+      width: 80%;
+      font-size: 4em;
+    }
+}
 
 @keyframes blink {
   0%,

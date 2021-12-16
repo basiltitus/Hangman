@@ -50,10 +50,10 @@ if(this.props.Status!=prevProps.Status){
                     </Col>
                 </Row>
                 <Row>
-                    <Col className='borderedCol'>
+                    <Col className='borderedCol' lg>
                     <PlayArea Questions={this.props.Questions} QuestionNumber={this.state.QuestionNumber}/>
                     </Col>
-                    <Col>
+                    <Col lg>
                     
     <Hangman />
     </Col>
